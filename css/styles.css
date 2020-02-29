@@ -28,3 +28,43 @@
 td{
     padding: 92px;
 }
+.form {
+    text-align: center;
+    align-items: center;
+    margin-left: 25%;
+    color:white;
+}
+
+.click-me,
+button[type=submit],
+.deliver,
+.delivernot {
+    color: rgb(247, 235, 235);
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color: #c578d8;
+    outline: none;
+    padding: 12.5px ;
+    border: none;
+    border-radius: 30px;
+    font-size: 10px;
+}
+.checkout {
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.footer {
+    background-color: red;
+    
+.checkout {
+    border-radius: 20px;
+    margin-top: 20px;
+}
+    color: white
+}
+
+
+
+
