@@ -1,0 +1,30 @@
+#b1{
+    background-image: url("../images/p2.jpg");
+    background-size: cover;
+    color: azure;
+    text-align: center;
+    padding: 30px;
+}
+#vee{
+    color: turquoise;
+}
+#ryla{
+    text-align: left;
+    padding-left: 3cm;
+    color: rgb(161, 115, 115);
+}
+.acra{
+        color: whitesmoke;
+        padding: 15px;
+        font-size: 15px;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+      }
+      .acra {
+        position: relative;
+        display: inline-block;
+      }
+td{
+    padding: 92px;
+}
