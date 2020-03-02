@@ -1,13 +1,13 @@
 $(document).ready(function () {
     $('#checkout').click(function (event) {
         event.preventDefault();
-        var flavour = parseInt($("#flavours :selected").val())
+        var flavours = parseInt($("#flavours :selected").val())
         var size = parseInt($("#sizes :selected").val())
         var crust = parseInt($("#crusts :selected").val())
         var toppings = parseInt($("#toppings :selected").val())
         var number = parseInt($("#number").val())
 
-        var total = flavour + size + crust + toppings;
+        var total = flavours + size + crust + toppings;
         var grandTotal = total * number;
 
         $("ul#list").append(
