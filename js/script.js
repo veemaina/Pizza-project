@@ -19,13 +19,13 @@ $(document).ready(function () {
             "<li>" + "Total amount to be paid is : Ksh" + grandTotal + "</li>");
 
     })
-$(".Delivery").click(function () {
+$(".Deliver").click(function () {
     var fields = prompt("Enter your address")
     prompt("Enter your name")
     prompt("Enter your location")
     alert("Your order will be delivered at" + fields)
     alert("Delivery cost is Kshs 100")
 })
-$(".deliver").click(function () {
+$(".delivery").click(function () {
     alert("Pick your order in our nearest shop")
 });

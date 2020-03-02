@@ -26,7 +26,7 @@
         display: inline-block;
       }
 td{
-    padding: 92px;
+    padding: 80px;
 }
 .form {
     text-align: center;
@@ -39,7 +39,7 @@ td{
 button[type=submit],
 .delivery,
 .deliver {
-    color: rgb(247, 235, 235);
+    color: rgb(243, 236, 241);
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
@@ -52,7 +52,7 @@ button[type=submit],
     font-size: 10px;
 }
 #contactlink {
-    background-color: rgb(235, 218, 69);
+    background-color: rgb(209, 5, 5);
 }
 .checkout {
     border-radius: 20px;
