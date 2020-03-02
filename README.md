@@ -5,7 +5,7 @@
 Violet Maina
 
 # Description
-This is pizza ordering web application that enables one to order  as many pizzas as he/she wants and also offers affordable delivery cost.
+This is a pizza ordering web application that enables one to order  as many pizzas as he/she wants and also offers affordable delivery cost.
 
 ## setup/installtion Requirement
 
