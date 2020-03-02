@@ -1,3 +1,24 @@
+$(document).ready(function () {
+    $('#checkout').click(function (event) {
+        event.preventDefault();
+        var flavour = parseInt($("#flavours :selected").val())
+        var size = parseInt($("#sizes :selected").val())
+        var crust = parseInt($("#crusts :selected").val())
+        var toppings = parseInt($("#toppings :selected").val())
+        var number = parseInt($("#number").val())
+
+        var total = flavour + size + crust + toppings;
+        var grandTotal = total * number;
+
+        $("ul#list").append(
+            "<li>" + "Your pizza flavour is : " + $("#flavour option:selected").text() + "</li>" +
+            "<li>" + "Your pizza size is : " + $("#size option:selected").text() + "</li>" +
+            "<li>" + "Your pizza crust is : " + $("#crust option:selected").text() + "</li>" +
+            "<li>" + "Your pizza topping is : " + $("#toppings option:selected").text() + "</li>" +
+            "<li>" + "Number of pizza ordered is : " + number + "</li>" +
+            "<li>" + "Total amount to be paid is : Ksh" + grandTotal + "</li>");
+
+    })
 $(".Delivery").click(function () {
     var fields = prompt("Enter your address")
     prompt("Enter your name")

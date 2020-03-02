@@ -12,7 +12,7 @@
   <h1><em>DYNASTIE DES PIZZAS</em></h1>
   <nav>
     <div id="ryla">
-      <ul>
+      <ul>10px
         <li><a class="sonia">
         <li><a href="#About">About</a></li>
         <li><a href="#Services">services</a></li>
@@ -25,8 +25,8 @@
       <p>
         <h3>Fill your stomach by bringing on our appetizing pizzas.<br> So take a trip to our fantastic world of pizza
           dynasty.</h3>
-        <br><br>
-        <!-- <div class="container">
+    </div>
+    <!-- <div class="container">
          <div class="dropdown">
             <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
               <h1><em>Size Of Pizza</em></em></h1>
@@ -78,7 +78,7 @@
             </ul>
             </select>
           </div> -->
-        <!-- <div class="acra">
+    <!-- <div class="acra">
           <h1>size</h1>
           <select>
             <option>Small</option>
@@ -102,7 +102,9 @@
   
  -->
 
-        <!-- </div>  -->
+    <!-- </div>  -->
+    <table>
+      <tc>
         <label for="number">The Number of Pizzas</label>
         <input type="number" class="form-control" id="num" placeholder="Number of pizzas" min="1" max="15" required>
         <button type="submit" c1lass="btn btn-danger checkout" id="checkout">Checkout</button>
@@ -113,70 +115,69 @@
           <ul id="lst" class="text-center sum">
           </ul>
         </div>
+        <td>
+          <h1><em>Flavours</em></h1>
+          <label for="flavours">Pick your pizza Flavour:</label>
+          <select id="flavours" class="custom-select custom-select-md mb-3 flavour" required>
+            <option value="200">pizza Margherita</option>
+            <option value="400">Hawaian pizza</option>
+            <option value="300">pepperoni</option>
+            <option value="500">Barbecue chicken</option>
+            <option value="350">Pizza cheese</option>
+            <option value="250">Buffalo pizza</option>
+            <option value="300">Chicken and Mushroom</option>
+          </select>
+        </td>
+        <td>
+          <h1><em>Size</em></h1>
+          <label for="size">choose your preferable size</label>
+          <select>
+            <option value="300">Small @ ksh 300 </option>
+            <option value="650">Medium @ ksh 650</option>
+            <option value="800">Large @ ksh. 800</option>
+            <option value="1200">Extra large @ ksh. 1200</option>
+          </select>
+        </td>
+        <td>
+          <h1><em>Crust</em></h1>
+          <label for="crust">Choose a preferable crust</label>
+          <select>
+            <option value="100">thin crust @ ksh. 100</option>
+            <option value="180">deep crust @ ksh. 180 </option>
+            <option value="200">cheese filled crust @ ksh. 200</option>
+            <option value="250">stuffed crust @ ksh. 250</option>
+          </select>
+        </td>
+        <td>
+          <h1><em>Toppings</em></h1>
+          <label for="toppings">pick your preferable toppings:</label>
+          <select>
+            <option value="150">Pepperoni @ ksh. 150</option>
+            <option value="180">Extra cheese@ ksh. 180</option>
+            <option value="100">Mashroom @ ksh. 100</option>
+            <option value="150">pineapple @ ksh. 150</option>
+            <option value="150">olive @ ksh. 150</option>
+            <option value="100">onions @ ksh. 100</option>
+          </select>
+        </td>
+      </tc>
+    </div>
+      <div class="text-center">
+        <button class='Delivery'><em>Make the delivery</em></button>
+        <button class='deliver'>Pick </button>
+        </div>
+    </table>
+  <div id="contactlink">
+    <footer>
+      <em>
+        <p>Email:dynastiesdespizzas@gmail.com</p>
+        <p>Tel:+254791613826</p>
+        <p>&copy; 2020 All Rights Reserved</p>
+      </em>
+    </footer>
+  </div>
+</body>
+<script src="js/jquery-3.4.1.js "></script>
+<script src="js/scripts.js"></script>
 
-        <table>
-          <tc>
-            <td>
-              <h1><em>Size</em></h1>
-              <label for="size">choose your preferable size</label>
-              <select>
-                <option>Small</option>
-                <option>Medium</option>
-                <option>Large</option>
-                <option>Extra large</option>
-              </select>
-            </td>
-            <td>
-              <h1><em>Crust</em></h1>
-              <label for="crust">Choose a preferable crust</label>
-              <select>
-                <option>thin crust</option>
-                <option>deep crust</option>
-                <option>cheese filled crust</option>
-                <option>stuffed crust</option>
-              </select>
-            </td>
-            <td>
-              <h1><em>Toppings</em></h1>
-              <label for="toppings">pick your preferable toppings:</label>
-              <select>
-                <option>Pepperoni</option>
-                <option>Extra cheese</option>
-                <option>Mashroom</option>
-                <option>pineapple</option>
-                <option>olive</option>
-                <option>onions</option>
-              </select>
-            <td>
-              <h1><em>Flavours</em></h1>
-              <label for="flavours">Pick your pizza Flavour:</label>
-              <select id="flavours" class="custom-select custom-select-md mb-3 flavour" required>
-                <option value="300">pizza Margherita</option>
-                <option value="400">Hawaian pizza</option>
-                <option value="250">pepperoni</option>
-                <option value="500">Barbecue chicken</option>
-                <option value="300">Pizza cheese</option>
-                <option value="350">Buffalo pizza</option>
-                <option value="400">Chicken and Mushroom</option>
-              </select>
-            </td>
-            </td>
-          </tc>
-          <div class="text-center">
-            <button class='Delivery'><em>Make the delivery</em></button>
-            <button class='deliver'>Pick Up</button>
-          </div>
-    </div>
-    <div class="footer text-center" id="contactlink">
-      <footer>
-        <em>
-          <p>Email:dynastiesdespizzas@gmail.com</p>
-          <p>Tel:+254791613826</p>
-          <p>&copy; 2020 All Rights Reserved</p>
-        </em>
-      </footer>
-    </div>
-  </div><script src="js/jquery-3.4.1.js "></script>
-  <script src="js/scripts.js"></script>
-</body> 
 </html>
