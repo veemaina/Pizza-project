@@ -28,5 +28,5 @@ $(document).ready(function () {
     })
     $(".delivery").click(function () {
         alert("Pick your order in our nearest shop")
-    });
-
+    })
+});
