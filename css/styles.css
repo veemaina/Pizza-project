@@ -11,7 +11,7 @@
 #ryla{
     text-align: left;
     padding-left: 3cm;
-    color: rgb(199, 95, 202);
+    color: rgb(255, 12, 4);
 }
 .acra{
         color: whitesmoke;
@@ -44,7 +44,7 @@ button[type=submit],
     text-transform: uppercase;
     display: inline-block;
     letter-spacing: 2px;
-    background-color: #c578d8;
+    background-color: #ec0808;
     outline: none;
     padding: 12.5px ;
     border: none;
